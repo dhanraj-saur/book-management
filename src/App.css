@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    background-color: #242121;
+    color: #FFFFFF;
+}
+
+.books {
+    color: gray;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #292828;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.searchbar-div {
+    display: flex;
+    gap: 60px;
+    width: 50%;
+}
+
+.search-bar {
+    width: 80%;
+}
+
+.search-icon-img {
+    margin-left: 5px;
+    margin-top: 4px;
+    position: absolute;
+    width: 25px;
+    z-index: 1111;
+}
+
+.search-input {
+    background-color: #373737;
+    background-image: url();
+    border: none;
+    border-radius: 5px;
+    color: #ffffffad;
+    outline: none;
+    padding: 7px 7px 7px 40px;
+    position: relative;
+    width: 100%;
+}
+
+.search-button {
+    width: 19%;
+}
+
+.search-btn {
+    background: #292828;
+    border: 2px solid #ffffff45;
+    border-radius: 0;
+    color: #ffffffbf;
+    padding: 5px;
+    width: 100%;
+}
+
+.img_icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+
+.books-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1%;
+    margin-top: 20px;
+}
+
+.book-info-div {
+    background-color: #415f71;
+    display: flex;
+    flex-direction: column;
+    height: 230px;
+    margin-top: 1%;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.book-description {
+    color: #d2d2d2;
+    font-size: small;
+    height: 96px;
+    overflow: hidden;
+    width: 149px;
+}
+
+.book-title {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.book-item {
+    display: flex;
+}
+
+.book-img-div {
+    border-right: 10px double #fff;
+    height: 245px;
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    width: 160px;
+}
+
+
+.book-img-div img {
+    width: 150px;
+    height: 240px;
+}
+
+.now-read-btn {
+    background-color: initial;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 5%;
+    padding: 3% 10%;
+}
+
+.book-list-more {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    gap: 15px;
+
+}
+
+.book-list-more .book-image {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    transition: 0.3s;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.book-list-more:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.book-list-more {
+    padding: 2px 16px;
+}
+
+.book-image img {
+    width: 240px;
+    height: 220px;
+    margin: 10px;
+}
+
+.book-list {
+    padding: 10px;
+    margin: 10px;
+}
+
+.select-book-item {
+    display: flex;
+    width: 100%;
+}
+
+.select-book-img {
+    border-right: 10px double #fff;
+    height: 250px;
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    width: 195px;
+}
+
+.select-book-img img {
+    width: 99%;
+    height: 100%;
+}
+
+.select-book-info-div {
+    background-color: #415f71;
+    display: flex;
+    flex-direction: column;
+    height: 234px;
+    margin-top: 0.5%;
+    padding-left: 27px;
+    width: 85%;
+}
+
+.select-book-title {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 1%;
+    margin-top: 10px;
+}
+.author{
+    margin-top: 15px;
+}
+.select-book-description {
+    color: #d2d2d2;
+    font-size: small;
+    height: 57px;
+    overflow: hidden;
+    width: 98%;
+    margin-top: 10px;
+}
+
+.info-book {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    gap: 12px;
+    margin-left: -70px;
+}
+
+.select-now-read-btn{
+    width: 150%;
+    height: 40px;
+    background-color: #415f71;
+    color: #d2d2d2;
+    border: 1px solid #d2d2d2;
+}
+
+.date-cross{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cross-btn{
+    background-color: #415f71;
+    border: none;
+    
+}
+
+.cross-btn img{
+    margin-left: 50px;
+}
